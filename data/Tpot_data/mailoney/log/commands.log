@@ -1,0 +1,31 @@
+{"timestamp": "2025-01-09T17:38:17.000000Z", "src_ip": "173.255.228.240", "src_port": 61000, "data": "EHLO masscan\r"}
+{"timestamp": "2025-01-09T17:38:17.000000Z", "src_ip": "173.255.228.240", "src_port": 61000, "data": "STARTTLS\r"}
+{"timestamp": "2025-01-09T18:05:16.000000Z", "src_ip": "178.215.236.95", "src_port": 53035, "data": "ehlo WIN-4TTI4DH7SGH\r"}
+{"timestamp": "2025-01-09T18:05:16.000000Z", "src_ip": "178.215.236.95", "src_port": 53035, "data": "Rset\r"}
+{"timestamp": "2025-01-09T18:05:16.000000Z", "src_ip": "178.215.236.95", "src_port": 53035, "data": "Mail from:<spameri@tiscali.it>\r", "emails": ["spameri@tiscali.it"]}
+{"timestamp": "2025-01-09T18:05:16.000000Z", "src_ip": "178.215.236.95", "src_port": 53035, "data": "RCPT to:<spameri@tiscali.it>\r", "emails": ["spameri@tiscali.it"]}
+{"timestamp": "2025-01-09T18:05:16.000000Z", "src_ip": "178.215.236.95", "src_port": 53035, "data": "Data\r"}
+{"timestamp": "2025-01-09T18:05:16.000000Z", "src_ip": "178.215.236.95", "src_port": 53035, "data": "From: spameri@tiscali.it\r\nSubject: 35.181.167.143\r\nTo: spameri@tiscali.it\r\nDate: Thu, 9 Jan 2025 10:05:19 -0800\r\nX-Priority: 3\r\nX-Library: Indy 8.0.25\r\n\r\nt_Smtp.LocalIP", "emails": ["spameri@tiscali.it", "spameri@tiscali.it"]}
+{"timestamp": "2025-01-09T18:05:16.000000Z", "src_ip": "178.215.236.95", "src_port": 53035, "data": "Quit"}
+{"timestamp": "2025-01-09T18:35:14.000000Z", "src_ip": "162.216.150.218", "src_port": 60382, "data": "GET / HTTP/1.1\r"}
+{"timestamp": "2025-01-09T18:35:14.000000Z", "src_ip": "162.216.150.218", "src_port": 60382, "data": "Host: 35.181.167.143:25\r"}
+{"timestamp": "2025-01-09T18:35:14.000000Z", "src_ip": "162.216.150.218", "src_port": 60382, "data": "User-Agent: Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com\r", "emails": ["scaninfo@paloaltonetworks.com"]}
+{"timestamp": "2025-01-09T18:35:14.000000Z", "src_ip": "162.216.150.218", "src_port": 60382, "data": "Accept-Encoding: gzip\r"}
+{"timestamp": "2025-01-09T18:35:14.000000Z", "src_ip": "162.216.150.218", "src_port": 60382, "data": "\r"}
+{"timestamp": "2025-01-09T18:56:01.000000Z", "src_ip": "45.33.73.34", "src_port": 61000, "data": "EHLO masscan\r"}
+{"timestamp": "2025-01-09T18:56:01.000000Z", "src_ip": "45.33.73.34", "src_port": 61000, "data": "STARTTLS\r"}
+{"timestamp": "2025-01-09T19:37:35.000000Z", "src_ip": "45.79.191.205", "src_port": 61000, "data": "EHLO masscan\r"}
+{"timestamp": "2025-01-09T19:37:36.000000Z", "src_ip": "45.79.191.205", "src_port": 61000, "data": "STARTTLS\r"}
+{"timestamp": "2025-01-09T20:44:36.000000Z", "src_ip": "178.215.236.95", "src_port": 49377, "data": "ehlo WIN-4TTI4DH7SGH\r"}
+{"timestamp": "2025-01-09T20:44:36.000000Z", "src_ip": "178.215.236.95", "src_port": 49377, "data": "Rset\r"}
+{"timestamp": "2025-01-09T20:44:36.000000Z", "src_ip": "178.215.236.95", "src_port": 49377, "data": "Mail from:<spameri@tiscali.it>\r", "emails": ["spameri@tiscali.it"]}
+{"timestamp": "2025-01-09T20:44:36.000000Z", "src_ip": "178.215.236.95", "src_port": 49377, "data": "RCPT to:<spameri@tiscali.it>\r", "emails": ["spameri@tiscali.it"]}
+{"timestamp": "2025-01-09T20:44:36.000000Z", "src_ip": "178.215.236.95", "src_port": 49377, "data": "Data\r"}
+{"timestamp": "2025-01-09T20:44:36.000000Z", "src_ip": "178.215.236.95", "src_port": 49377, "data": "From: spameri@tiscali.it\r\nSubject: 35.181.167.143\r\nTo: spameri@tiscali.it\r\nDate: Thu, 9 Jan 2025 12:44:40 -0800\r\nX-Priority: 3\r\nX-Library: Indy 8.0.25\r\n\r\nt_Smtp.LocalIP", "emails": ["spameri@tiscali.it", "spameri@tiscali.it"]}
+{"timestamp": "2025-01-09T20:44:36.000000Z", "src_ip": "178.215.236.95", "src_port": 49377, "data": "Quit"}
+{"timestamp": "2025-01-09T20:55:22.000000Z", "src_ip": "69.164.220.201", "src_port": 61000, "data": "EHLO masscan\r"}
+{"timestamp": "2025-01-09T20:55:22.000000Z", "src_ip": "69.164.220.201", "src_port": 61000, "data": "STARTTLS\r"}
+{"timestamp": "2025-01-09T21:38:04.000000Z", "src_ip": "45.79.134.108", "src_port": 61000, "data": "EHLO masscan\r"}
+{"timestamp": "2025-01-09T21:38:04.000000Z", "src_ip": "45.79.134.108", "src_port": 61000, "data": "STARTTLS\r"}
+{"timestamp": "2025-01-09T22:38:17.000000Z", "src_ip": "45.56.100.63", "src_port": 61000, "data": "EHLO masscan\r"}
+{"timestamp": "2025-01-09T22:38:17.000000Z", "src_ip": "45.56.100.63", "src_port": 61000, "data": "STARTTLS\r"}

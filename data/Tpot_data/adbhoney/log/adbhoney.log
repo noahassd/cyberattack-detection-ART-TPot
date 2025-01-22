@@ -1,0 +1,2 @@
+2025-01-09 17:21:14,234 - 123220055305016 - ADBHoneypot - INFO - Configuration loaded with ['output_log', 'output_json'] as output plugins
+2025-01-09 17:21:14,238 - 123220055305016 - ADBHoneypot - INFO - Listening on 0.0.0.0:5555.

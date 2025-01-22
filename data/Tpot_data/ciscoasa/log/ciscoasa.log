@@ -1,0 +1,5 @@
+Starting server on port 5000/udp
+Using selector: EpollSelector
+Starting server on port 8443/tcp, use <Ctrl-C> to stop
+{'timestamp': '2025-01-09T23:00:38.915772', 'src_ip': '45.156.130.27', 'payload_printable': '"GET / HTTP/1.1" 200 -'}
+{'timestamp': '2025-01-09T23:00:41.917803', 'src_ip': '45.156.130.27', 'payload_printable': 'Request timed out: TimeoutError('The read operation timed out')'}

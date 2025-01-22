@@ -1,0 +1,27 @@
+2025-01-09 17:21:16,682 (root) Initializing Heralding version 1.0.7
+2025-01-09 17:21:16,738 (heralding.honeypot) Using default wordlist file: "/usr/lib/python3.12/site-packages/heralding/wordlist.txt", if you want to customize values please copy this file to the current working directory
+2025-01-09 17:21:16,744 (heralding.reporting.file_logger) File logger: Using /var/log/heralding/auth.csv to log authentication attempts in CSV format.
+2025-01-09 17:21:16,756 (heralding.reporting.file_logger) File logger: Using /var/log/heralding/session.csv to log unified session data in CSV format.
+2025-01-09 17:21:16,756 (heralding.reporting.file_logger) File logger: Using /var/log/heralding/log_session.json to log complete session data in JSON format.
+2025-01-09 17:21:16,961 (heralding.honeypot) Found public ip: 35.181.167.143
+2025-01-09 17:21:16,963 (heralding.honeypot) Started Pop3 capability listening on port 110
+2025-01-09 17:21:16,964 (heralding.honeypot) Started smtp capability listening on port 25
+2025-01-09 17:21:18,480 (heralding.honeypot) Started smtps capability listening on port 465
+2025-01-09 17:21:18,482 (heralding.honeypot) Started Http capability listening on port 80
+2025-01-09 17:21:18,483 (heralding.honeypot) Started Telnet capability listening on port 23
+2025-01-09 17:21:20,670 (heralding.honeypot) Started Pop3S capability listening on port 995
+2025-01-09 17:21:20,670 (heralding.honeypot) Started MySQL capability listening on port 3306
+2025-01-09 17:21:21,260 (heralding.honeypot) Started RDP capability listening on port 3389
+2025-01-09 17:21:22,324 (heralding.honeypot) Started SSH capability listening on port 22
+2025-01-09 17:21:22,324 (heralding.honeypot) Started PostgreSQL capability listening on port 5432
+2025-01-09 17:21:22,324 (heralding.honeypot) Started Vnc capability listening on port 5900
+2025-01-09 17:21:22,325 (heralding.honeypot) Started Imap capability listening on port 143
+2025-01-09 17:21:22,941 (heralding.honeypot) Started Imaps capability listening on port 993
+2025-01-09 17:21:23,400 (heralding.honeypot) Started https capability listening on port 443
+2025-01-09 17:21:23,400 (heralding.honeypot) Started Socks5 capability listening on port 1080
+2025-01-09 17:21:23,400 (heralding.honeypot) Started ftp capability listening on port 21
+2025-01-09 18:21:17,154 (heralding.honeypot) Found public ip: 35.181.167.143
+2025-01-09 19:21:17,370 (heralding.honeypot) Found public ip: 35.181.167.143
+2025-01-09 20:21:17,580 (heralding.honeypot) Found public ip: 35.181.167.143
+2025-01-09 21:21:17,786 (heralding.honeypot) Found public ip: 35.181.167.143
+2025-01-09 22:21:17,919 (heralding.honeypot) Found public ip: 13.37.222.227

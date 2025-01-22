@@ -1,0 +1,41 @@
+2025-01-09 17:21:18,111 Config file found!
+2025-01-09 17:21:18,113 Starting Conpot using template: /usr/lib/python3.11/site-packages/conpot/templates/IEC104
+2025-01-09 17:21:18,113 Starting Conpot using configuration found in: /etc/conpot/conpot.cfg
+2025-01-09 17:21:18,214 Serving tar:///usr/lib/python3.11/site-packages/conpot/data.tar as file system. File uploads will be kept at : /tmp/conpot
+2025-01-09 17:21:18,214 Opening path /tmp/conpot for persistent storage of files.
+2025-01-09 17:21:18,214 Initializing Virtual File System at /tmp/conpot/__conpot__48zg0f2o. Source specified : tar:///usr/lib/python3.11/site-packages/conpot/data.tar
+ Please wait while the system copies all specified files
+2025-01-09 17:21:18,253 Fetched 35.181.167.143 as external ip.
+2025-01-09 17:21:18,263 IEC 104 Server up
+2025-01-09 17:21:18,263 Found and enabled IEC104 protocol.
+2025-01-09 17:21:18,269 Found and enabled snmp protocol.
+2025-01-09 17:21:18,270 No proxy template found. Service will remain unconfigured/stopped.
+2025-01-09 17:21:18,270 IEC 60870-5-104 protocol server started on: ('0.0.0.0', 2404)
+2025-01-09 17:21:18,860 Skipped: OID for symbol ifOutUNcastPkts not found in MIB IF-MIB
+2025-01-09 17:21:20,158 SNMP server started on: ('0.0.0.0', 161)
+2025-01-09 19:25:58,544 New IEC104 session from 104.45.233.31 (839477cc-6012-4d67-8dcf-3e59531b338c)
+2025-01-09 19:25:58,544 New IEC 104 connection from 104.45.233.31:38444. (839477cc-6012-4d67-8dcf-3e59531b338c)
+2025-01-09 19:26:08,689 IEC104 Station disconnected. (839477cc-6012-4d67-8dcf-3e59531b338c)
+2025-01-09 19:26:40,725 Session timed out: 839477cc-6012-4d67-8dcf-3e59531b338c
+2025-01-09 20:59:54,901 New IEC104 session from 64.62.156.79 (60de1a8c-eea3-4368-97f6-0a0df8bc53dd)
+2025-01-09 20:59:54,901 New IEC 104 connection from 64.62.156.79:48763. (60de1a8c-eea3-4368-97f6-0a0df8bc53dd)
+2025-01-09 20:59:54,901 ('64.62.156.79', 48763) ---> u_frame. TESTFR act. (60de1a8c-eea3-4368-97f6-0a0df8bc53dd)
+2025-01-09 20:59:54,902 ('64.62.156.79', 48763) <--- u_frame 0x68 0x4 0x83 0x0 0x0 0x0  (60de1a8c-eea3-4368-97f6-0a0df8bc53dd)
+2025-01-09 20:59:55,046 IEC104 Station disconnected. (60de1a8c-eea3-4368-97f6-0a0df8bc53dd)
+2025-01-09 21:00:06,522 New IEC104 session from 64.62.156.76 (80c08fc2-2fae-4312-a7af-8832899c25bb)
+2025-01-09 21:00:06,523 New IEC 104 connection from 64.62.156.76:60345. (80c08fc2-2fae-4312-a7af-8832899c25bb)
+2025-01-09 21:00:07,490 New IEC 104 connection from 64.62.156.76:2023. (80c08fc2-2fae-4312-a7af-8832899c25bb)
+2025-01-09 21:00:07,507 ('64.62.156.76', 2023) ---> u_frame. TESTFR act. (80c08fc2-2fae-4312-a7af-8832899c25bb)
+2025-01-09 21:00:07,507 ('64.62.156.76', 2023) <--- u_frame 0x68 0x4 0x83 0x0 0x0 0x0  (80c08fc2-2fae-4312-a7af-8832899c25bb)
+2025-01-09 21:00:07,656 ('64.62.156.76', 2023) ---> u_frame. STARTDT act. (80c08fc2-2fae-4312-a7af-8832899c25bb)
+2025-01-09 21:00:07,657 ('64.62.156.76', 2023) <--- u_frame 0x68 0x4 0xb 0x0 0x0 0x0  (80c08fc2-2fae-4312-a7af-8832899c25bb)
+2025-01-09 21:00:07,806 ('64.62.156.76', 2023) ---> i_frame C_IC_NA_1 with {'TypeID': 100, 'SQ': 0, 'NoO': 1, 'T': 0, 'PN': 0, 'COT': 6, 'OrigAddr': 0, 'COA': 65535} Objects=[{'IOA': 0, 'QOI': 20}]  (80c08fc2-2fae-4312-a7af-8832899c25bb)
+2025-01-09 21:00:07,807 ('64.62.156.76', 2023) <--- i_frame C_IC_NA_1 with {'COT': 7, 'COA': 7720} Objects=[{'QOI': 20}]  (80c08fc2-2fae-4312-a7af-8832899c25bb)
+2025-01-09 21:00:07,875 ('64.62.156.76', 2023) <--- i_frame M_SP_NA_1 with {'SQ': 0, 'COT': 20, 'NoO': 16, 'COA': 7720} Objects=[{'SIQ': <SIQ  SPI=0x1 |>, 'IOA': 1314048}, {'SIQ': <SIQ  SPI=0x0 |>, 'IOA': 1379584}, {'SIQ': <SIQ  SPI=0x0 |>, 'IOA': 1445120}, {'SIQ': <SIQ  SPI=0x1 |>, 'IOA': 1576192}, {'SIQ': <SIQ  SPI=0x1 |>, 'IOA': 1641728}, {'SIQ': <SIQ  SPI=0x1 |>, 'IOA': 2100480}, {'SIQ': <SIQ  SPI=0x1 |>, 'IOA': 2166016}, {'SIQ': <SIQ  SPI=0x1 |>, 'IOA': 2231552}, {'SIQ': <SIQ  SPI=0x1 |>, 'IOA': 2297088}, {'SIQ': <SIQ  SPI=0x1 |>, 'IOA': 2362624}, {'SIQ': <SIQ  SPI=0x1 |>, 'IOA': 2428160}, {'SIQ': <SIQ  SPI=0x1 |>, 'IOA': 2493696}, {'SIQ': <SIQ  SPI=0x1 |>, 'IOA': 2559232}, {'SIQ': <SIQ  SPI=0x0 |>, 'IOA': 2624768}, {'SIQ': <SIQ  SPI=0x1 |>, 'IOA': 2690304}, {'SIQ': <SIQ  SPI=0x0 |>, 'IOA': 2755840}]  (80c08fc2-2fae-4312-a7af-8832899c25bb)
+2025-01-09 21:00:07,881 ('64.62.156.76', 2023) <--- i_frame M_DP_NA_1 with {'SQ': 0, 'COT': 20, 'NoO': 10, 'COA': 7720} Objects=[{'DIQ': <DIQ  DPI=0x1 |>, 'IOA': 139520}, {'DIQ': <DIQ  DPI=0x2 |>, 'IOA': 205056}, {'DIQ': <DIQ  DPI=0x1 |>, 'IOA': 270592}, {'DIQ': <DIQ  DPI=0x2 |>, 'IOA': 336128}, {'DIQ': <DIQ  DPI=0x2 |>, 'IOA': 401664}, {'DIQ': <DIQ  DPI=0x1 |>, 'IOA': 467200}, {'DIQ': <DIQ  DPI=0x1 |>, 'IOA': 532736}, {'DIQ': <DIQ  DPI=0x1 |>, 'IOA': 598272}, {'DIQ': <DIQ  DPI=0x1 |>, 'IOA': 663808}, {'DIQ': <DIQ  DPI=0x1 |>, 'IOA': 729344}]  (80c08fc2-2fae-4312-a7af-8832899c25bb)
+2025-01-09 21:00:07,886 ('64.62.156.76', 2023) <--- i_frame M_ME_NB_1 with {'SQ': 0, 'COT': 20, 'NoO': 11, 'COA': 7720} Objects=[{'QDS': <QDS  |>, 'IOA': 812032, 'SVA': 103}, {'QDS': <QDS  |>, 'IOA': 877568, 'SVA': 31}, {'QDS': <QDS  |>, 'IOA': 3367936, 'SVA': -49}, {'QDS': <QDS  |>, 'IOA': 7103488, 'SVA': 28871}, {'QDS': <QDS  |>, 'IOA': 7169024, 'SVA': 13781}, {'QDS': <QDS  |>, 'IOA': 11691008, 'SVA': 119}, {'QDS': <QDS  |>, 'IOA': 11756544, 'SVA': 219}, {'QDS': <QDS  |>, 'IOA': 12477440, 'SVA': 1009}, {'QDS': <QDS  |>, 'IOA': 12542976, 'SVA': -2}, {'QDS': <QDS  |>, 'IOA': 12608512, 'SVA': 701}, {'QDS': <QDS  |>, 'IOA': 12674048, 'SVA': 441}]  (80c08fc2-2fae-4312-a7af-8832899c25bb)
+2025-01-09 21:00:07,893 ('64.62.156.76', 2023) <--- i_frame M_ME_NC_1 with {'SQ': 0, 'COT': 20, 'NoO': 22, 'COA': 7720} Objects=[{'QDS': <QDS  |>, 'IOA': 224000, 'FPNumber': 16.2}, {'QDS': <QDS  |>, 'IOA': 5073664, 'FPNumber': 15.9}, {'QDS': <QDS  |>, 'IOA': 5139200, 'FPNumber': 512.1}, {'QDS': <QDS  |>, 'IOA': 5204736, 'FPNumber': 433.4}, {'QDS': <QDS  |>, 'IOA': 5925632, 'FPNumber': 344.4}, {'QDS': <QDS  |>, 'IOA': 8547072, 'FPNumber': -0.44013}, {'QDS': <QDS  |>, 'IOA': 8612608, 'FPNumber': 43.0}, {'QDS': <QDS  |>, 'IOA': 8678144, 'FPNumber': 41.2}, {'QDS': <QDS  |>, 'IOA': 9267968, 'FPNumber': 12.1}, {'QDS': <QDS  |>, 'IOA': 13134592, 'FPNumber': 91}, {'QDS': <QDS  |>, 'IOA': 13200128, 'FPNumber': 98.8}, {'QDS': <QDS  |>, 'IOA': 13265664, 'FPNumber': 110}, {'QDS': <QDS  |>, 'IOA': 13331200, 'FPNumber': 85.1}, {'QDS': <QDS  |>, 'IOA': 13396736, 'FPNumber': 85.2}, {'QDS': <QDS  |>, 'IOA': 13462272, 'FPNumber': 410}, {'QDS': <QDS  |>, 'IOA': 13527808, 'FPNumber': 592}, {'QDS': <QDS  |>, 'IOA': 13593344, 'FPNumber': 1.5}, {'QDS': <QDS  |>, 'IOA': 13658880, 'FPNumber': 44.7}, {'QDS': <QDS  |>, 'IOA': 13724416, 'FPNumber': 11.9}, {'QDS': <QDS  |>, 'IOA': 13789952, 'FPNumber': 221.45}, {'QDS': <QDS  |>, 'IOA': 13855488, 'FPNumber': 13.4}, {'QDS': <QDS  |>, 'IOA': 13921024, 'FPNumber': 0.000402}]  (80c08fc2-2fae-4312-a7af-8832899c25bb)
+2025-01-09 21:00:07,899 ('64.62.156.76', 2023) <--- i_frame C_IC_NA_1 with {'COT': 10, 'COA': 7720} Objects=[{'QOI': 20}]  (80c08fc2-2fae-4312-a7af-8832899c25bb)
+2025-01-09 21:00:08,104 IEC104 Station disconnected. (80c08fc2-2fae-4312-a7af-8832899c25bb)
+2025-01-09 21:00:26,123 Session timed out: 60de1a8c-eea3-4368-97f6-0a0df8bc53dd
+2025-01-09 21:00:38,134 Session timed out: 80c08fc2-2fae-4312-a7af-8832899c25bb

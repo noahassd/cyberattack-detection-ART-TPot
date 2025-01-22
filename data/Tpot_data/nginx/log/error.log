@@ -1,0 +1,2 @@
+2025/01/09 18:00:04 [error] 10#10: *859 user "sam": password mismatch, client: 31.34.78.210, server: example.com, request: "GET / HTTP/2.0", host: "35.181.167.143:64297"
+2025/01/09 18:00:04 [error] 10#10: *859 user "sam": password mismatch, client: 31.34.78.210, server: example.com, request: "GET / HTTP/2.0", host: "35.181.167.143:64297"

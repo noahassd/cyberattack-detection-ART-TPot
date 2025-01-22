@@ -1,0 +1,22 @@
+2025-01-09 17:21:18,111 Config file found!
+2025-01-09 17:21:18,115 Starting Conpot using template: /usr/lib/python3.11/site-packages/conpot/templates/guardian_ast
+2025-01-09 17:21:18,115 Starting Conpot using configuration found in: /etc/conpot/conpot.cfg
+2025-01-09 17:21:18,124 Serving tar:///usr/lib/python3.11/site-packages/conpot/data.tar as file system. File uploads will be kept at : /tmp/conpot
+2025-01-09 17:21:18,128 Opening path /tmp/conpot for persistent storage of files.
+2025-01-09 17:21:18,129 Initializing Virtual File System at /tmp/conpot/__conpot__fdkgr11z. Source specified : tar:///usr/lib/python3.11/site-packages/conpot/data.tar
+ Please wait while the system copies all specified files
+2025-01-09 17:21:18,200 Fetched 35.181.167.143 as external ip.
+2025-01-09 17:21:18,209 Conpot GuardianAST initialized
+2025-01-09 17:21:18,209 Found and enabled guardian_ast protocol.
+2025-01-09 17:21:18,210 No proxy template found. Service will remain unconfigured/stopped.
+2025-01-09 17:21:18,210 GuardianAST server started on: ('0.0.0.0', 10001)
+2025-01-09 18:38:42,496 New guardian_ast session from 147.185.132.118 (b70538a8-5427-4038-8d36-9ff74fa99b6a)
+2025-01-09 18:38:42,496 New GuardianAST connection from 147.185.132.118:63338. (b70538a8-5427-4038-8d36-9ff74fa99b6a)
+2025-01-09 18:38:42,496 Invalid command attempt 147.185.132.118:63338. (b70538a8-5427-4038-8d36-9ff74fa99b6a)
+2025-01-09 18:38:42,496 GuardianAST client disconnected 147.185.132.118:63338. (b70538a8-5427-4038-8d36-9ff74fa99b6a)
+2025-01-09 18:39:14,526 Session timed out: b70538a8-5427-4038-8d36-9ff74fa99b6a
+2025-01-09 19:18:35,985 New guardian_ast session from 89.248.174.186 (be32f680-21b9-4564-abb8-e8d3593db853)
+2025-01-09 19:18:35,985 New GuardianAST connection from 89.248.174.186:48700. (be32f680-21b9-4564-abb8-e8d3593db853)
+2025-01-09 19:18:35,985 Non ^A command attempt 89.248.174.186:48700. (be32f680-21b9-4564-abb8-e8d3593db853)
+2025-01-09 19:18:35,986 GuardianAST client disconnected 89.248.174.186:48700. (be32f680-21b9-4564-abb8-e8d3593db853)
+2025-01-09 19:19:06,019 Session timed out: be32f680-21b9-4564-abb8-e8d3593db853

@@ -1,0 +1,6 @@
+{"timestamp": "2025-01-09T18:05:16.000000Z", "src_ip": "178.215.236.95", "src_port": 53035, "data": "Mail from: spameri@tiscali.it", "emails": ["spameri@tiscali.it"]}
+{"timestamp": "2025-01-09T18:05:16.000000Z", "src_ip": "178.215.236.95", "src_port": 53035, "data": "Mail to: spameri@tiscali.it", "emails": ["spameri@tiscali.it"]}
+{"timestamp": "2025-01-09T18:05:16.000000Z", "src_ip": "178.215.236.95", "src_port": 53035, "data": "From: spameri@tiscali.it\nSubject: 35.181.167.143\nTo: spameri@tiscali.it\nDate: Thu, 9 Jan 2025 10:05:19 -0800\nX-Priority: 3\nX-Library: Indy 8.0.25\n\nt_Smtp.LocalIP", "emails": ["spameri@tiscali.it", "spameri@tiscali.it"]}
+{"timestamp": "2025-01-09T20:44:36.000000Z", "src_ip": "178.215.236.95", "src_port": 49377, "data": "Mail from: spameri@tiscali.it", "emails": ["spameri@tiscali.it"]}
+{"timestamp": "2025-01-09T20:44:36.000000Z", "src_ip": "178.215.236.95", "src_port": 49377, "data": "Mail to: spameri@tiscali.it", "emails": ["spameri@tiscali.it"]}
+{"timestamp": "2025-01-09T20:44:36.000000Z", "src_ip": "178.215.236.95", "src_port": 49377, "data": "From: spameri@tiscali.it\nSubject: 35.181.167.143\nTo: spameri@tiscali.it\nDate: Thu, 9 Jan 2025 12:44:40 -0800\nX-Priority: 3\nX-Library: Indy 8.0.25\n\nt_Smtp.LocalIP", "emails": ["spameri@tiscali.it", "spameri@tiscali.it"]}

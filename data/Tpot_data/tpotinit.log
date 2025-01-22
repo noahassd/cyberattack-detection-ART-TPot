@@ -1,0 +1,189 @@
+
+# Updating permissions ...
+
+
+# Checking if OSType is set correctly.
+
+Found valid user: sam
+# Warning: No LS_WEB_USER detected! T-Pots of type SENSOR will not be able to submit logs to this HIVE.
+
+
+
+# All settings seem to be valid.
+
+ ___       _ _   _       _ _     _                     
+|_ _|_ __ (_) |_(_) __ _| (_)___(_)_ __   __ _         
+ | || '_ \| | __| |/ _` | | |_  / | '_ \ / _` |        
+ | || | | | | |_| | (_| | | |/ /| | | | | (_| |  _ _ _ 
+|___|_| |_|_|\__|_|\__,_|_|_/___|_|_| |_|\__, | (_|_|_)
+                                         |___/         
+ _____     ____       _       ____  _  _    ___  _  _    _ 
+|_   _|   |  _ \ ___ | |_ _  |___ \| || |  / _ \| || |  / |
+  | |_____| |_) / _ \| __(_)   __) | || |_| | | | || |_ | |
+  | |_____|  __/ (_) | |_ _   / __/|__   _| |_| |__   _|| |
+  |_|     |_|   \___/ \__(_) |_____|  |_|(_)___/   |_|(_)_|
+                                                           
+
+# Creating passwd files based on T-Pot .env config ...
+
+# Data folder is present, just cleaning up, please be patient ...
+
+Persistence enabled, now rotating and compressing logs.
+chmod: /data/adbhoney/downloads.tgz: No such file or directory
+chmod: /data/cowrie/log/ttylogs.tgz: No such file or directory
+chmod: /data/cowrie/downloads.tgz: No such file or directory
+chmod: /data/dionaea/bistreams.tgz: No such file or directory
+chmod: /data/dionaea/binaries.tgz: No such file or directory
+chmod: /data/h0neytr4p/payloads.tgz: No such file or directory
+chmod: /data/honeytrap/attacks.tgz: No such file or directory
+chmod: /data/honeytrap/downloads.tgz: No such file or directory
+chmod: /data/miniprint/uploads.tgz: No such file or directory
+chmod: /data/tanner/files.tgz: No such file or directory
+chown: /data/adbhoney/downloads.tgz: No such file or directory
+chown: /data/cowrie/log/ttylogs.tgz: No such file or directory
+chown: /data/cowrie/downloads.tgz: No such file or directory
+chown: /data/dionaea/bistreams.tgz: No such file or directory
+chown: /data/dionaea/binaries.tgz: No such file or directory
+chown: /data/h0neytr4p/payloads.tgz: No such file or directory
+chown: /data/honeytrap/attacks.tgz: No such file or directory
+chown: /data/honeytrap/downloads.tgz: No such file or directory
+chown: /data/miniprint/uploads.tgz: No such file or directory
+chown: /data/tanner/files.tgz: No such file or directory
+
+Checking and preparing data folders.
+
+
+# Blackhole is not active.
+
+# Updating IP Info ...
+
+Trying: dig +short myip.opendns.com @resolver2.opendns.com
+[MAIN]
+ip = 35.181.167.143
+HONEY_UUID=6663fc6d-124b-4c26-a931-f691a27b99d0
+MY_EXTIP=35.181.167.143
+MY_INTIP=172.31.7.94
+MY_HOSTNAME=ip-172-31-7-94
+
+# Updating permissions ...
+
+
+# Get IF, disable offloading, enable promiscious mode for p0f and suricata ...
+
+Actual changes:
+tx-checksum-ipv4: on [requested off]
+tx-checksum-ipv6: off
+tx-tcp6-segmentation: off [not requested]
+rx-checksum: on [requested off]
+
+# Adding firewall rules ...
+
+All arguments met. Continuing.
+Detected honeytrap as NFQ based honeypot, iptables-legacy rules needed. Continuing.
+Setting up / removing these ports:
+20
+21
+22
+23
+25
+42
+69
+80
+81
+104
+110
+135
+143
+161
+443
+445
+465
+587
+623
+631
+993
+995
+1025
+1080
+1433
+1723
+1883
+2404
+2575
+3000
+3306
+3389
+4222
+5000
+5060
+5061
+5432
+5555
+5900
+6379
+7634
+8080
+8082
+8443
+9100
+9200
+10001
+11112
+27017
+50100
+64294
+64295
+64296
+64297
+64298
+64299
+64303
+64305
+
+# This is a list of open ports on the host (netstat -tulpen).
+# Make sure there are no conflicting ports by checking the docker compose file.
+# Conflicting ports will prevent the startup of T-Pot.
+
+64295
+68
+323
+1
+323
+
+
+ ____  _             _   _                     
+/ ___|| |_ __ _ _ __| |_(_)_ __   __ _         
+\___ \| __/ _` | '__| __| | '_ \ / _` |        
+ ___) | || (_| | |  | |_| | | | | (_| |  _ _ _ 
+|____/ \__\__,_|_|   \__|_|_| |_|\__, | (_|_|_)
+                                 |___/         
+ _____     ____       _       ____  _  _    ___  _  _    _ 
+|_   _|   |  _ \ ___ | |_ _  |___ \| || |  / _ \| || |  / |
+  | |_____| |_) / _ \| __(_)   __) | || |_| | | | || |_ | |
+  | |_____|  __/ (_) | |_ _   / __/|__   _| |_| |__   _|| |
+  |_|     |_|   \___/ \__(_) |_____|  |_|(_)___/   |_|(_)_|
+                                                           
+
+# Dropping UDP connection tables to improve visibility of true source IPs.
+udp      17 9 src=172.28.0.7 dst=172.31.0.2 sport=50166 dport=53 src=172.31.0.2 dst=172.31.7.94 sport=53 dport=50166 mark=0 use=1
+conntrack v1.4.8 (conntrack-tools): 6 flow entries have been deleted.
+udp      17 17 src=172.31.7.94 dst=169.254.169.123 sport=43439 dport=123 src=169.254.169.123 dst=172.31.7.94 sport=123 dport=43439 mark=0 use=1
+udp      17 9 src=172.28.0.7 dst=172.31.0.2 sport=50576 dport=53 src=172.31.0.2 dst=172.31.7.94 sport=53 dport=50576 mark=0 use=1
+udp      17 8 src=172.28.0.7 dst=172.31.0.2 sport=44492 dport=53 src=172.31.0.2 dst=172.31.7.94 sport=53 dport=44492 mark=0 use=1
+udp      17 8 src=172.28.0.7 dst=172.31.0.2 sport=46760 dport=53 src=172.31.0.2 dst=172.31.7.94 sport=53 dport=46760 mark=0 use=1
+udp      17 0 src=172.31.7.94 dst=169.254.169.123 sport=60277 dport=123 src=169.254.169.123 dst=172.31.7.94 sport=123 dport=60277 mark=0 use=1
+
+ ____  _             _   _                     
+/ ___|| |_ __ _ _ __| |_(_)_ __   __ _         
+\___ \| __/ _` | '__| __| | '_ \ / _` |        
+ ___) | || (_| | |  | |_| | | | | (_| |  _ _ _ 
+|____/ \__\__,_|_|   \__|_|_| |_|\__, | (_|_|_)
+                                 |___/         
+    _         _        _                _ 
+   / \  _   _| |_ ___ | |__   ___  __ _| |
+  / _ \| | | | __/ _ \| '_ \ / _ \/ _` | |
+ / ___ \ |_| | || (_) | | | |  __/ (_| | |
+/_/   \_\__,_|\__\___/|_| |_|\___|\__,_|_|
+                                          
+# Now monitoring healthcheck enabled containers to automatically restart them when unhealthy.
+

