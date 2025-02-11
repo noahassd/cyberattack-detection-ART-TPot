@@ -1,0 +1,1 @@
+stream = [('in', b'GET / HTTP/1.0\x0d\x0aUser-Agent: curl/7.88.1\x0d\x0aHost: 35.181.167.143:81\x0d\x0aAccept: */*\x0d\x0aConnection: close\x0d\x0a\x0d\x0a')]

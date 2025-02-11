@@ -1,0 +1,2 @@
+{"eventid":"elasticpot.recon","message":"Scan","url":"/_cat/indices?format=json&h=index","timestamp":"2025-01-09T18:57:02.773584Z","src_ip":"46.105.132.53","src_port":43266,"dst_port":9200,"sensor":"t-pot","request":"GET","user_agent":"python-httpx/0.21.1","dst_ip":"192.168.32.2"}
+{"eventid":"elasticpot.recon","message":"Scan","url":"/_cat/aliases?format=json&h=alias","timestamp":"2025-01-09T18:57:02.880084Z","src_ip":"46.105.132.53","src_port":43322,"dst_port":9200,"sensor":"t-pot","request":"GET","user_agent":"python-httpx/0.21.1","dst_ip":"192.168.32.2"}
