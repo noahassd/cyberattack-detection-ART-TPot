@@ -1,0 +1,51 @@
+Honeypot,IP,Appearances,City,Zip Code,Region Code,Region Name,Country Code,Country Name,Latitude,Longitude
+honeytrap,34.38.239.34,1,Brussels,1000,BRU,Brussels Capital,BE,Belgium,50.8534,4.347
+honeytrap,5.181.190.248,1,,0,,,PL,Poland,52.2394,21.0362
+honeytrap,185.242.226.117,1,,0,,,US,United States,37.751,-97.822
+honeytrap,54.184.244.82,1,Boardman,97818,OR,Oregon,US,United States,45.8401,-119.705
+dionaea,60.253.15.176,1,Gumi,392,47,Gyeongsangbuk-do,KR,South Korea,36.1135,128.343
+dionaea,66.240.236.116,2,,0,,,US,United States,37.751,-97.822
+dionaea,172.105.128.12,2,Cedar Knolls,7927,NJ,New Jersey,US,United States,40.8229,-74.4592
+dionaea,45.33.109.17,2,Fremont,94536,CA,California,US,United States,37.5625,-122
+dionaea,161.35.129.149,1,Clifton,7014,NJ,New Jersey,US,United States,40.8364,-74.1403
+dionaea,193.200.78.250,1,,0,,,LT,Lithuania,55.4167,24
+dionaea,216.218.206.118,1,Jenner,95450,CA,California,US,United States,38.4496,-123.116
+dionaea,4.151.220.177,1,San Antonio,78288,TX,Texas,US,United States,29.4227,-98.4927
+dionaea,138.219.201.243,3149,Santana do Ipanema,57500,AL,Alagoas,BR,Brazil,-9.3437,-37.1978
+dionaea,205.210.31.106,1,,0,,,US,United States,37.751,-97.822
+dionaea,64.62.197.86,1,,0,,,US,United States,37.751,-97.822
+dionaea,64.62.197.156,1,,0,,,US,United States,37.751,-97.822
+dionaea,46.105.132.55,3,,0,,,FR,France,48.8582,2.3387
+dionaea,91.223.169.83,1,Stockholm,164,AB,Stockholm County,SE,Sweden,59.3996,17.9484
+dionaea,185.247.137.129,1,Bursa,16000,16,Bursa Province,TR,Türkiye,40.1925,29.0587
+dionaea,47.236.99.61,1,,0,,,SG,Singapore,1.3667,103.8
+dionaea,103.203.59.5,1,,0,,,CN,China,34.7732,113.722
+dionaea,52.234.238.238,1,Washington,22747,VA,Virginia,US,United States,38.7095,-78.1539
+dionaea,198.235.24.130,1,,0,CA,California,US,United States,34.0544,-118.244
+dionaea,179.43.191.146,1,Rümlang,8153,ZH,Zurich,CH,Switzerland,47.4505,8.5255
+dionaea,65.188.139.20,5,Asheboro,27205,NC,North Carolina,US,United States,35.6383,-79.8557
+dionaea,47.251.92.56,1,,0,CA,California,US,United States,34.0544,-118.244
+dionaea,172.169.205.214,1,Des Moines,50307,IA,Iowa,US,United States,41.6015,-93.6127
+dionaea,138.94.46.193,1,São João da Boa Vista,13870,SP,São Paulo,BR,Brazil,-21.9782,-46.8192
+dionaea,13.83.42.216,1,San Jose,95141,CA,California,US,United States,37.3388,-121.892
+dionaea,172.169.109.108,1,Des Moines,50307,IA,Iowa,US,United States,41.6015,-93.6127
+tanner,45.156.129.130,1,,0,,,PT,Portugal,38.7057,-9.1359
+tanner,118.33.169.205,1,Namyangju,122,41,Gyeonggi-do,KR,South Korea,37.5865,127.222
+tanner,193.200.78.250,3,,0,,,LT,Lithuania,55.4167,24
+tanner,87.121.79.3,2,,0,,,GB,United Kingdom,51.4964,-0.1224
+tanner,69.164.217.74,1,Cedar Knolls,7927,NJ,New Jersey,US,United States,40.8229,-74.4592
+tanner,5.181.190.248,2,,0,,,PL,Poland,52.2394,21.0362
+tanner,45.156.128.47,1,,0,,,PT,Portugal,38.7057,-9.1359
+tanner,213.32.122.81,1,,0,,,FR,France,48.8582,2.3387
+tanner,124.156.187.113,2,Hong Kong,0,,,HK,Hong Kong,22.2842,114.176
+tanner,118.172.199.156,1,Lam Luk Ka,12150,13,Pathum Thani,TH,Thailand,13.9332,100.75
+tanner,45.95.147.253,1,Amsterdam,1012,NH,North Holland,NL,The Netherlands,52.3759,4.8975
+tanner,183.107.74.184,1,Seocheon-gun,33634,44,Chungcheongnam-do,KR,South Korea,36.1021,126.699
+tanner,91.223.3.201,1,,0,,,PL,Poland,52.2394,21.0362
+tanner,198.235.24.128,1,,0,CA,California,US,United States,34.0544,-118.244
+tanner,46.19.138.234,1,,0,,,CH,Switzerland,47.1449,8.1551
+tanner,159.223.67.34,1,Singapore,62,,,SG,Singapore,1.314,103.684
+tanner,178.128.54.126,1,Singapore,62,,,SG,Singapore,1.314,103.684
+tanner,139.162.71.210,1,Tokyo,151,13,Tokyo,JP,Japan,35.6893,139.69
+tanner,80.183.93.156,1,Turin,10121,21,Piedmont,IT,Italy,45.0729,7.689
+tanner,93.174.93.12,1,Amsterdam,1012,NH,North Holland,NL,The Netherlands,52.3759,4.8975
